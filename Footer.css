@@ -1,0 +1,34 @@
+.footer > h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.bus{
+    margin-left: 100px;
+    margin-right: 110px;
+}
+
+.card{
+    margin-left: 110px ;
+    margin-right: 110px;
+}
+
+.wallet{
+    margin-left: 110px ;
+    margin-right: 110px;
+}
+
+.balance{
+    margin-left: 110px ;
+    margin-right: 100px;
+}
