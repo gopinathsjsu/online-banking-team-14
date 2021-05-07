@@ -32,4 +32,6 @@ Heli Sanjaykumar Patel - Simplicity
 Navami Murthy Sanjaynagar - Feedback
 
 #Architectural Diagram:
-![Architectural Diagram] (C:\Users\Devki Desai\Desktop\202 team project\202_ARCHITECTURE)
+
+<img width="610" alt="202_ARCHITECTURE" src="https://user-images.githubusercontent.com/78130620/117390996-fb108c00-aea3-11eb-9e1d-3eb01793d210.png">
+
