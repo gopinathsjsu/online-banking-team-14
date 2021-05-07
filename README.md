@@ -17,16 +17,24 @@ Every Friday
 
 # Tasks:
 Frontend: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar
+
 Backend and Database: Gunjal Gupta, Devki Sanat Desai
+
 UI Wireframes: Navami Murthy Sanjaynagar
+
 Project documentation and Deployment diagrams: Devki Sanat Desai
+
 UML diagrams: Heli Sanjaykumar Patel
+
 Deployment: Gunjal Gupta
 
 # XP Core Values Implemented:
 Devki Sanat Desai - Communication
+
 Gunjal Gupta - Courage
+
 Heli Sanjaykumar Patel - Simplicity
+
 Navami Murthy Sanjaynagar - Feedback
 
 # Architectural Diagram:
