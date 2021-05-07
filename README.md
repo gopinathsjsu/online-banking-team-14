@@ -10,9 +10,7 @@ team-project-team-14 created by GitHub Classroom
 4. Navami Murthy Sanjaynagar
 
 # Tools and Languages:
-Frontend:
-Backend:
-Database:
+MERN Stack
 
 # Scrum meetings schedule:
 Every Friday
