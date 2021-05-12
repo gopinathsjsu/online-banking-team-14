@@ -1,22 +1,18 @@
-const express = require('express')
-const router = express.Router()
-const User = require("../models/userRouters");
-//const bcrypt = require("bcryptjs");
-//const jwt = require("jsonwebtoken");
-
+const router = require("express").Router();
+const User = require("../models/userModel");
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+const Customer = require("../models/customers"); 
 // register
-router.get('/', async (req, res) => {
-    const transactions = await User.find({})
-    res.send(transactions)
-})
 
 router.post("/", async (req, res) => {
   try {
-    const { email, password, passwordVerify } = req.body;
+    const { name, email, password, vpassword } = req.body;
+    console.log("on backend", req.body);
 
     // validation
 
-    if (!email || !password || !passwordVerify)
+    if (!email || !password || !vpassword)
       return res
         .status(400)
         .json({ errorMessage: "Please enter all required fields." });
@@ -26,7 +22,7 @@ router.post("/", async (req, res) => {
         errorMessage: "Please enter a password of at least 6 characters.",
       });
 
-    if (password !== passwordVerify)
+    if (password !== vpassword)
       return res.status(400).json({
         errorMessage: "Please enter the same password twice.",
       });
@@ -45,12 +41,21 @@ router.post("/", async (req, res) => {
     // save a new user account to the db
 
     const newUser = new User({
+      name,
       email,
       passwordHash,
     });
 
     const savedUser = await newUser.save();
 
+    const newCustomer = new Customer({
+      name,
+      email, 
+      password,
+    });
+    console.log("--------",newCustomer);
+    const saveCustomer = await newCustomer.save();
+    console.log("-----------", saveCustomer)
     // sign the token
 
     const token = jwt.sign(
@@ -68,7 +73,7 @@ router.post("/", async (req, res) => {
         secure: true,
         sameSite: "none",
       })
-      .send();
+      .json({email:req.body.email});
   } catch (err) {
     console.error(err);
     res.status(500).send();
@@ -88,7 +93,7 @@ router.post("/login", async (req, res) => {
         .status(400)
         .json({ errorMessage: "Please enter all required fields." });
 
-    const existingUser = await User.findOne({ email });
+    const existingUser = await User.findOne({ email:email });
     if (!existingUser)
       return res.status(401).json({ errorMessage: "Wrong email or password." });
 
@@ -100,7 +105,12 @@ router.post("/login", async (req, res) => {
       return res.status(401).json({ errorMessage: "Wrong email or password." });
 
     // sign the token
+    console.log("------------------>",existingUser);
 
+    const customer = await Customer.findOne({email:email});
+    console.log('--------------.sdfhsd>',customer);
+
+    //
     const token = jwt.sign(
       {
         user: existingUser._id,
@@ -109,14 +119,13 @@ router.post("/login", async (req, res) => {
     );
 
     // send the token in a HTTP-only cookie
-
     res
       .cookie("token", token, {
         httpOnly: true,
         secure: true,
         sameSite: "none",
       })
-      .send();
+      .json({existingUser:existingUser,savingsAcc:customer.savingsAcc, checkingAcc:customer.checkingsAcc});
   } catch (err) {
     console.error(err);
     res.status(500).send();
@@ -147,4 +156,4 @@ router.get("/loggedIn", (req, res) => {
   }
 });
 
-module.exports = router
+module.exports = router;
