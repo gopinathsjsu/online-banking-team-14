@@ -6,7 +6,71 @@ POST http://localhost:3000/transaction
 Content-Type: application/json
 
 {
-    "amount": 200,
+    "amount": 210,
     "category": "groceries",
     "acc_no": 123
+}
+###
+DELETE http://localhost:3000/transaction/607b6855614f8c3ec8647c39
+
+###
+POST http://localhost:3000/adminActions
+Content-Type: application/json
+
+{
+    "name": "Gunjal",
+    "email":"punjal1gupta@gmail.com",
+    "password":"dummy"
+}
+
+###
+
+DELETE http://localhost:8080/adminActions/closeAccount/12345
+
+###
+GET http://localhost:3000/adminActions
+
+###
+POST http://localhost:3000/userRouter
+Content-Type: application/json
+
+{
+    "email": "punjal1gupta@gmail.com",
+    "password": "Dummy"
+    
+}
+###
+GET http://localhost:3000/userRouter
+###
+GET http://localhost:3000/trial
+###
+POST http://localhost:8080/adminActions/openAccount
+Content-Type: application/json
+
+{
+    "accNum": "11345",
+    "firstName": "Gunjal",
+    "lastName": "Gupta",
+    "email":"gunjal@gmail.com",
+    "accountType":"savings",
+    "balance": "0"
+
+}
+###
+GET http://localhost:8080/adminActions/openAccount
+###
+POST  http://localhost:8080/adminActions/deposit/11345/3000
+###
+
+POST  http://localhost:8080/adminActions/withdraw/11345/3000
+###
+POST http://localhost:8080/transaction/makeAtrasaction
+Content-Type: application/json
+
+{
+    "srcAcc": "11345",
+    "tgtAcc": "12345",
+    "amount":"200",
+    "recurringFlag": "false"
+
 }

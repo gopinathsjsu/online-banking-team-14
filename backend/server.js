@@ -14,4 +14,14 @@ app.use(express.json())
 const transactionRouter = require('./routes/transaction')
 app.use('/transaction', transactionRouter)
 
-app.listen(3000, () => console.log('Server Started'))
+const adminActionRouter = require('./routes/adminActions')
+app.use('/adminActions', adminActionRouter)
+
+const userRouter = require('./routes/userRouter')
+app.use('/userRouter', userRouter)
+
+const trials = require('./routes/trial')
+app.use('/trial', trials)
+
+
+app.listen(8080, () => console.log('Server Started'))
