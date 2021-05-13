@@ -11,10 +11,22 @@ function Footer() {
         <div className='footer'>
             <h1>Choose what's right for you</h1>
             <div class='icons'>
-                <BusinessCenterIcon className='bus' style = {{fontSize: 60}}/>
-                <CreditCardIcon className='card' style = {{fontSize: 60}}/>
-                <AccountBalanceWalletIcon className='wallet' style = {{fontSize: 60}}/>
-                <AccountBalanceIcon className='balance' style = {{fontSize: 60}}/>
+                <div className="footer_option">
+                    <BusinessCenterIcon className='icon' style = {{fontSize: 60}}/>
+                    <span className="des">Business</span>
+                </div>
+                <div className="footer_option">
+                    <CreditCardIcon className='icon' style = {{fontSize: 60}}/>
+                    <span className="des" >Credit Card</span>
+                </div>
+                <div className="footer_option">
+                    <AccountBalanceWalletIcon className='icon' style = {{fontSize: 60}}/>
+                    <span className="des">Account Balance</span>
+                </div>
+                <div className="footer_option">
+                    <AccountBalanceIcon className='icon' style = {{fontSize: 60}}/>
+                    <span className="des">Transaction</span>
+                </div>
             </div>
             
         </div>

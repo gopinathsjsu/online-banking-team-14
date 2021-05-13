@@ -8,27 +8,17 @@
 
 .icons {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
+    justify-content: space-evenly;
 }
 
-.bus{
-    margin-left: 100px;
-    margin-right: 110px;
+.footer_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.card{
-    margin-left: 110px ;
-    margin-right: 110px;
-}
-
-.wallet{
-    margin-left: 110px ;
-    margin-right: 110px;
-}
-
-.balance{
-    margin-left: 110px ;
-    margin-right: 100px;
+.des{
+    font-weight: 500;
+    margin-top: 2px;
 }
