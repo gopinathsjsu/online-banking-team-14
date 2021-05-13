@@ -4,7 +4,7 @@
 - Task2 : Created base API for admin actions.
 - Task3 : Desgined the UI for add user and remove user.
 - Task4 : Completed the frontend coding for add user and remove user.
-- Task3 : Send the scrum MOM to team.
+- Task5 : Send the scrum MOM to team.
 
 ## Sprint planned for next Sprint
 - Task1 : Adding the deposit and withdrawal functionality in admin actions.
