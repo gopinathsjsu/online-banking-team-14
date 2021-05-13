@@ -16,9 +16,9 @@ MERN Stack
 Every Friday
 
 # Tasks:
-Frontend: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar
+Frontend: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar, Gunjal Gupta,  Devki Sanat Desai
 
-Backend and Database: Gunjal Gupta, Devki Sanat Desai
+Backend and Database: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar, Gunjal Gupta,  Devki Sanat Desai
 
 UI Wireframes: Navami Murthy Sanjaynagar
 
