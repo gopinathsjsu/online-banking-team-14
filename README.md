@@ -34,11 +34,8 @@ Deployment: Gunjal Gupta
 
 # XP Core Values Implemented:
 Devki Sanat Desai - Communication
-
 Gunjal Gupta - Courage
-
 Heli Sanjaykumar Patel - Simplicity
-
 Navami Murthy Sanjaynagar - Feedback
 
 # Architectural Diagram:
