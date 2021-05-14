@@ -11,9 +11,13 @@ team-project-team-14 created by GitHub Classroom
 
 # Tools and Languages:
 MERN Stack
+
 Frontend - React 
+
 Backend - Nodejs Express
+
 Database - MongoDB
+
 UI Icons - MaterialUI
 
 # Scrum meetings schedule:
