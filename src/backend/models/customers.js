@@ -9,12 +9,23 @@ const customerSchema = new Schema({
   },
   email: {
     type: String,
-    unique: true,
     required: true
   },
   password: {
     type: String,
     required: true
+  },
+  savingsAcc: { 
+    type:String,
+    default: 0
+  },
+  checkingsAcc: { 
+    type:String,
+    default: 0
+  },
+  status: {
+    type: String,
+    default: "pending"
   },
   date: {
     type: Date,
@@ -22,10 +33,11 @@ const customerSchema = new Schema({
   }
 });
 
-schema.method("toJSON", function() {
+/*customerSchema.method("toJSON", function() {
   const { __v, _id, ...object } = this.toObject();
   object.id = _id;
   return object;
-});
+});*/
 
-module.exports = Customer = mongoose.model("Customers", customerSchema);
+const Customer = mongoose.model("Customers", customerSchema);
+module.exports= Customer
