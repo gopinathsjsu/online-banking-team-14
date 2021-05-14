@@ -11,14 +11,18 @@ team-project-team-14 created by GitHub Classroom
 
 # Tools and Languages:
 MERN Stack
+Frontend - React 
+Backend - Nodejs Express
+Database - MongoDB
+UI Icons - MaterialUI
 
 # Scrum meetings schedule:
 Every Friday
 
 # Tasks:
-Frontend: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar
+Frontend: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar, Gunjal Gupta,  Devki Sanat Desai
 
-Backend and Database: Gunjal Gupta, Devki Sanat Desai
+Backend and Database: Heli Sanjaykumar Patel, Navami Murthy Sanjaynagar, Gunjal Gupta,  Devki Sanat Desai
 
 UI Wireframes: Navami Murthy Sanjaynagar
 

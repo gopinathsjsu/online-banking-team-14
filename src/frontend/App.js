@@ -17,6 +17,8 @@ import Deleteaccount from './admin/Deleteaccount'
 import MakeTransaction from './User/MakeTransaction';
 import Pending from './admin/Pending'
 import SeeChecking from './SeeChecking'
+import Internal from './Internal'
+import SeeSaving from './SeeSaving'
 
 function App() {
   return (
@@ -42,6 +44,10 @@ function App() {
             <Route path="/seechecking">
               <Header />
               <SeeChecking />
+            </Route>
+            <Route path="/seesaving">
+              <Header />
+              <SeeSaving />
             </Route>
             <Route path="/withdraw">
               <AdminHeader />
@@ -69,6 +75,10 @@ function App() {
               <Header />
               <WaitForAdmin />
               <Footer />
+            </Route>
+            <Route path="/internal">
+              <Header />
+              <Internal />
             </Route>
             <Route path="/User_signup">
               <User_signup />
