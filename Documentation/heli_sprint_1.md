@@ -2,7 +2,7 @@
 ## Tasks completed in this Sprint
 - Task1 : Created use cases, test cases for admin actions API, add user and remove user.
 - Task2 : Created base API for admin actions.
-- Task3 : Desgined the UI for add user and remove user.
+- Task3 : Designed the UI for add user and remove user.
 - Task4 : Completed the frontend coding for add user and remove user.
 - Task5 : Send the scrum MOM to team.
 
@@ -12,4 +12,4 @@
 - Task3 ; Implementing the frontend coding for deposit and withdrawal.
 
 ## Blockers
-- Haven't faced any blockers till know.
+- Haven't faced any blockers till now.

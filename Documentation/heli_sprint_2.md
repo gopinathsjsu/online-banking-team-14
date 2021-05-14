@@ -12,4 +12,4 @@
 
 ## Blockers
 
-Haven't faced any blockers till know
+Haven't faced any blockers till now
