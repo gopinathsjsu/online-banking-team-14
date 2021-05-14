@@ -1,13 +1,14 @@
-##Sprint 1 Report
+# Sprint 1 Report
 
-##Tasks completed this sprint:
-Task 1: 
-Task 2: 
-Task 3: 
-Task 4: 
+## Tasks completed this sprint:
+- Task 1: 
+- Task 2: 
+- Task 3: 
+- Task 4: 
 
-##Sprint planned for next sprint:
-Task 1: 
-Task 2: 
+## Sprint planned for next sprint:
+- Task 1: 
+- Task 2: 
 
-##Blockers
+## Blockers
+-
