@@ -13,4 +13,4 @@ Heli held this XP core value. She ensured the process workflow was maintained th
 
 Navami Murthy Sanjaynagar - Feedback
 
-Navami held this XP core value. She maintained constant feedback between sprints so we could go back and forth and work on improvements with each sprint. She reduced the time for each item that is dependent on another item to travel through the system. She also avoided problems caused by task switching and reduced the need to constantly reprioritize items.
+Navami held this XP core value. She maintained constant feedback between sprints so we could go back and forth and work on improvements with each sprint. She has proactively worked to reduce the time for each item that is dependent on another item. She also prioritized tasks to work on in a sequence.
