@@ -85,6 +85,8 @@ Below listed are decisions/use cases considered for features provided by the onl
 
 ![](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/Deployment%20Diagram.PNG)
 
+https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/deployment.pdf
+
 ## Sprint Sheet
 
 https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/Sprint%20Sheet.xlsx
