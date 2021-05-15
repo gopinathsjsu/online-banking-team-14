@@ -74,4 +74,6 @@ Below listed are decisions/use cases considered for features provided by the onl
 4. Recurring transactions
 5. View transaction history (For checking and savings account)
 
+## Deployment Diagram
 
+![](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/Deployment%20Diagram.PNG)
