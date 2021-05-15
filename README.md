@@ -45,6 +45,8 @@ Heli Sanjaykumar Patel - Simplicity
 
 Navami Murthy Sanjaynagar - Feedback
 
+[](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/XP%20values.md)
+
 # Architectural Diagram:
 
 <img width="610" alt="202_ARCHITECTURE" src="https://user-images.githubusercontent.com/78130620/117390996-fb108c00-aea3-11eb-9e1d-3eb01793d210.png">
