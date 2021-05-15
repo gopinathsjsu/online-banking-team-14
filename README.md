@@ -45,7 +45,7 @@ Heli Sanjaykumar Patel - Simplicity
 
 Navami Murthy Sanjaynagar - Feedback
 
-[](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/XP%20values.md)
+[XP Core Values](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/XP%20values.md)
 
 # Architectural Diagram:
 
