@@ -11,9 +11,13 @@ team-project-team-14 created by GitHub Classroom
 
 # Tools and Languages:
 MERN Stack
+
 Frontend - React 
+
 Backend - Nodejs Express
+
 Database - MongoDB
+
 UI Icons - MaterialUI
 
 # Scrum meetings schedule:
@@ -34,8 +38,11 @@ Deployment: Gunjal Gupta
 
 # XP Core Values Implemented:
 Devki Sanat Desai - Communication
+
 Gunjal Gupta - Courage
+
 Heli Sanjaykumar Patel - Simplicity
+
 Navami Murthy Sanjaynagar - Feedback
 
 # Architectural Diagram:
@@ -57,13 +64,14 @@ Below listed are decisions/use cases considered for features provided by the onl
 1. Login
 2. Admin accepts customer requests
 3. Open an account
-4.Remove an account
+4. Remove an account
 5. Manual deposit/withdraw
+
 ### User features:
 1. Registration/Login
 2. Make transactions
-3.Internal transactions (In case user has a checking and savings account)
+3. Internal transactions (In case user has a checking and savings account)
 4. Recurring transactions
-5.View transaction history (For checking and savings account)
+5. View transaction history (For checking and savings account)
 
 
