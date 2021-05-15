@@ -45,8 +45,6 @@ Heli Sanjaykumar Patel - Simplicity
 
 Navami Murthy Sanjaynagar - Feedback
 
-[XP Core Values](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/XP%20values.md)
-
 https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/XP%20values.md
 
 # Architectural Diagram:
@@ -81,3 +79,11 @@ Below listed are decisions/use cases considered for features provided by the onl
 ## Deployment Diagram
 
 ![](https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/Deployment%20Diagram.PNG)
+
+## Sprint Sheet
+
+https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/Sprint%20Sheet.xlsx
+
+## UI wireframes
+
+https://github.com/gopinathsjsu/online-banking-team-14/blob/main/Documentation/UI%20WIREFRAMES%20Banking%20system.pdf
